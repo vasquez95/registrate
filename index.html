@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>siding sing up/login form</title>
+    <link rel="stylesheet" href="./estilo.css">
+</head>
+<body>
+    <main>
+        <div class="signup">
+            <span> nuevo usuario?</span>
+            <button type="button"> regisrtrate</button>
+        </div>
+        <div class="login">
+            <span>acceso</span>
+            <button type="button">login</button>
+        </div>
+        <div class="back-layer">
+            <form action="" method="POST" class="login-form active">
+                <h2>login</h2>
+                <label for="lemail">email</label>
+                <input type="email" id="lemail" placeholder="correo@email.com">
+                <label for="lpassword">contraseña</label>
+                <input type="password" id="lpassword" placeholder="******">
+                <button type="button">login</button>
+            </form>
+
+            <form action="" method="POST" class="signup-form">
+                <h2>sign up</h2>
+                <label for="f-name">nombre</label>
+                <input type="text" id="f-name" placeholder="nombre">
+                <label for="l-name">apellido</label>
+                <input type="text" id="l-name" placeholder="apellido">
+                <label for="semail">email</label>
+                <input type="email" id="semail" placeholder="person@email.com">
+                <label for="spassword">contraseña</label>
+                <input type="password" id="spassword" placeholder="*****">
+                <button type="button">sign up</button>
+            </form>
+        </div>
+    </main>
+    <script src="./app.js"></script>
+</body>
+</html>
